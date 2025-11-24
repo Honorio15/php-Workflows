@@ -1,0 +1,13 @@
+
+#         uses: Honorio15/php-workflows/.github/workflows/login.yml@master
+
+name: CI via Workflow Reutilizável (correção)
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+
+jobs:
+  login:
+    uses: Honorio15/php-workflows/.github/workflows/login.yml@master
