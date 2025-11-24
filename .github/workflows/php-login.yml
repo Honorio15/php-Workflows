@@ -10,4 +10,4 @@ on:
 
 jobs:
   login:
-    uses: Honorio15/Criando-Workflows/.github/workflows/login.yml@master
+    uses: Honorio15/login-workflow/.github/workflows/login.yml@main
