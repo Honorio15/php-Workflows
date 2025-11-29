@@ -1,0 +1,11 @@
+name: Call Reusable Workflow
+
+on: [push, pull_request]
+
+jobs:
+  call-reusable-workflow:
+    uses: Honorio15/Hilton/.github/workflows/ci.yml@main
+    # ⚠️ SUBSTITUA "Honorio15" pelo SEU username do GitHub
+    with:
+      message: "Teste Realizado com sucesso por Hilton"
+      java-version: '17'
