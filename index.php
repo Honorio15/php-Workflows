@@ -1,5 +1,6 @@
 <?php
 // login.php
+//teste
 
 session_start();
 
